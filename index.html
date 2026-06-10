@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hy">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invitation | 07.07.2026</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Հրավեր | 07.07.2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Armenian:wght@300;400;600;700&family=Noto+Sans+Armenian:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -14,7 +13,7 @@
         }
 
         body {
-            font-family: 'Cormorant Garamond', serif;
+            font-family: 'Noto Serif Armenian', serif;
             background-color: #0a1628;
             color: #f5f0e8;
             overflow-x: hidden;
@@ -47,7 +46,7 @@
         }
 
         .nav-logo {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Noto Serif Armenian', serif;
             font-size: 1.2rem;
             color: #b89c50;
             letter-spacing: 3px;
@@ -63,8 +62,8 @@
         .nav-links a {
             color: #f5f0e8;
             text-decoration: none;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 0.8rem;
+            font-family: 'Noto Sans Armenian', sans-serif;
+            font-size: 0.85rem;
             letter-spacing: 2px;
             text-transform: uppercase;
             transition: color 0.3s ease;
@@ -109,10 +108,9 @@
         }
 
         .pre-title {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 0.85rem;
-            letter-spacing: 6px;
-            text-transform: uppercase;
+            font-family: 'Noto Sans Armenian', sans-serif;
+            font-size: 0.9rem;
+            letter-spacing: 4px;
             color: #b89c50;
             margin-bottom: 2rem;
             opacity: 0;
@@ -120,7 +118,7 @@
         }
 
         .main-date {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Noto Serif Armenian', serif;
             font-size: clamp(3rem, 8vw, 7rem);
             color: #b89c50;
             letter-spacing: 8px;
@@ -128,10 +126,11 @@
             opacity: 0;
             animation: fadeInUp 1s ease forwards 0.8s;
             text-shadow: 0 0 40px rgba(184, 156, 80, 0.3);
+            font-weight: 400;
         }
 
         .tagline {
-            font-family: 'Cormorant Garamond', serif;
+            font-family: 'Noto Serif Armenian', serif;
             font-size: clamp(1.2rem, 2.5vw, 1.8rem);
             font-weight: 300;
             font-style: italic;
@@ -169,10 +168,9 @@
             background: linear-gradient(135deg, #b89c50, #d4b96a, #b89c50);
             color: #0a1628;
             text-decoration: none;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 0.85rem;
-            letter-spacing: 4px;
-            text-transform: uppercase;
+            font-family: 'Noto Sans Armenian', sans-serif;
+            font-size: 0.9rem;
+            letter-spacing: 3px;
             font-weight: 500;
             border-radius: 50px;
             transition: all 0.4s ease;
@@ -195,11 +193,12 @@
         }
 
         .section-title {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Noto Serif Armenian', serif;
             font-size: 2.5rem;
             color: #b89c50;
             margin-bottom: 4rem;
             letter-spacing: 3px;
+            font-weight: 400;
         }
 
         .details-grid {
@@ -229,10 +228,9 @@
         }
 
         .detail-label {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 0.75rem;
+            font-family: 'Noto Sans Armenian', sans-serif;
+            font-size: 0.8rem;
             letter-spacing: 3px;
-            text-transform: uppercase;
             color: #b89c50;
             margin-bottom: 1rem;
         }
@@ -241,6 +239,7 @@
             font-size: 1.3rem;
             line-height: 1.8;
             color: #f5f0e8;
+            font-weight: 300;
         }
 
         /* Countdown Section */
@@ -266,17 +265,17 @@
         }
 
         .countdown-number {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Noto Serif Armenian', serif;
             font-size: 4rem;
             color: #b89c50;
             line-height: 1;
+            font-weight: 300;
         }
 
         .countdown-label {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 0.7rem;
+            font-family: 'Noto Sans Armenian', sans-serif;
+            font-size: 0.75rem;
             letter-spacing: 3px;
-            text-transform: uppercase;
             margin-top: 0.5rem;
             color: #f5f0e8;
             opacity: 0.7;
@@ -291,8 +290,8 @@
         }
 
         .footer-text {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 0.75rem;
+            font-family: 'Noto Sans Armenian', sans-serif;
+            font-size: 0.8rem;
             letter-spacing: 3px;
             color: #f5f0e8;
             opacity: 0.5;
@@ -338,72 +337,72 @@
     <div class="bg-overlay"></div>
 
     <nav>
-        <div class="nav-logo">✦ Invitation ✦</div>
+        <div class="nav-logo">✦ Հրավեր ✦</div>
         <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#details">Details</a></li>
-            <li><a href="#rsvp">RSVP</a></li>
+            <li><a href="#home">Գլխավոր</a></li>
+            <li><a href="#details">Մանրամասներ</a></li>
+            <li><a href="#rsvp">Հաստատել</a></li>
         </ul>
     </nav>
 
     <section class="hero" id="home">
-        <p class="pre-title">You Are Cordially Invited</p>
+        <p class="pre-title">Ձեզ սիրով հրավիրում ենք</p>
         <h1 class="main-date">07.07.2026</h1>
-        <p class="tagline">Elegance Awaits</p>
+        <p class="tagline">Շքեղությունն սպասում է</p>
         <div class="divider"></div>
-        <a href="#rsvp" class="rsvp-btn">RSVP</a>
+        <a href="#rsvp" class="rsvp-btn">Հաստատել</a>
     </section>
 
     <section class="details" id="details">
-        <h2 class="section-title">Event Details</h2>
+        <h2 class="section-title">Միջոցառման մանրամասներ</h2>
         <div class="details-grid">
             <div class="detail-card">
                 <div class="detail-icon">📅</div>
-                <p class="detail-label">Date</p>
-                <p class="detail-text">Tuesday<br>July 7th, 2026</p>
+                <p class="detail-label">Ամսաթիվ</p>
+                <p class="detail-text">Երեքշաբթի<br>Հուլիսի 7, 2026</p>
             </div>
             <div class="detail-card">
                 <div class="detail-icon">🕖</div>
-                <p class="detail-label">Time</p>
-                <p class="detail-text">Seven O'Clock<br>in the Evening</p>
+                <p class="detail-label">Ժամ</p>
+                <p class="detail-text">Երեկոյան<br>ամը 19:00</p>
             </div>
             <div class="detail-card">
-                <div class="detail-icon">📍</div>
-                <p class="detail-label">Venue</p>
-                <p class="detail-text">The Grand Ballroom<br>Your City, Your Country</p>
+                <div class="detail-icon"></div>
+                <p class="detail-label">Վայր</p>
+                <p class="detail-text">Մեծ պարասրահ<br>Ձեր քաղաքը, Ձեր երկիրը</p>
             </div>
         </div>
     </section>
 
     <section class="countdown">
-        <h2 class="section-title">Countdown</h2>
+        <h2 class="section-title">Մինչև միջոցառումը</h2>
         <div class="countdown-grid">
             <div class="countdown-item">
                 <div class="countdown-number" id="days">000</div>
-                <div class="countdown-label">Days</div>
+                <div class="countdown-label">ր</div>
             </div>
             <div class="countdown-item">
                 <div class="countdown-number" id="hours">00</div>
-                <div class="countdown-label">Hours</div>
+                <div class="countdown-label">Ժամ</div>
             </div>
             <div class="countdown-item">
                 <div class="countdown-number" id="minutes">00</div>
-                <div class="countdown-label">Minutes</div>
+                <div class="countdown-label">Րոպե</div>
             </div>
             <div class="countdown-item">
                 <div class="countdown-number" id="seconds">00</div>
-                <div class="countdown-label">Seconds</div>
+                <div class="countdown-label">Վայրկյան</div>
             </div>
         </div>
     </section>
 
     <section class="details" id="rsvp">
-        <h2 class="section-title">RSVP</h2>
-        <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto 3rem; line-height: 1.8; opacity: 0.8;">
-            Kindly respond by June 1st, 2026.<br>
-            We look forward to celebrating with you.
+        <h2 class="section-title">Հաստատել մասնակցությունը</h2>
+        <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto 3rem; line-height: 1.8; opacity: 0.8; font-weight: 300;">
+            Խնդրում ենք հաստատել Ձեր մասնակցությունը մինչև 2026 . հունիսի 1-ը:<br>
+            Անհամբեր սպասում ենք Ձեզ:
         </p>
-        <a href="mailto:rsvp@example.com" class="rsvp-btn">Confirm Attendance</a>
+        <a href="mailto:rsvp@example.com" class="rsvp-btn">Հաստատել մասնակցությունը</a>
     </section>
 
     <footer>
